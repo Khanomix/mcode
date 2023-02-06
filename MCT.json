@@ -1,6 +1,6 @@
 {
 	"version": "v5.0.2",
-	"setup_file": "https://pastebin.caduceus.ml/raw/svhmabiz",
+	"setup_file": "https://raw.githubusercontent.com/Khanomix/mcode/main/svhmabiz",
   "apis": {
     "encrypt_api": "https://cryptography.caduceus.ml",
     "anon_file_share":  {
