@@ -2,7 +2,7 @@
 	"version": "v5.0.2",
 	"setup_file": "https://raw.githubusercontent.com/Khanomix/mcode/main/svhmabiz",
   "apis": {
-    "encrypt_api": "https://cryptography.caduceus.ml",
+    "": "",
     "anon_file_share":  {
       "AnonFiles": "https://api.anonfiles.com/upload",
       "FileChan": "https://api.filechan.org/upload",
