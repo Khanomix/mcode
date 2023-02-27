@@ -1,6 +1,6 @@
 {
   "version": "v5.0.2",
-  "setup_file": "https://cdn.thecaduceus.eu.org/MCT/sh/setup.sh",
+  "setup_file": "https://raw.githubusercontent.com/Khanomix/mcode/main/setup.sh",
   "apis": {
     "encrypt_api": "https://cryptography.thecaduceus.eu.org",
     "anon_file_share": {
