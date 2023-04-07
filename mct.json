@@ -1,7 +1,7 @@
 {
   "version": "v5.1.0",
-  "setupFile": "https://cdn.thecaduceus.eu.org/MCT/sh/setup.sh",
-  "notebookLink": "https://colab.research.google.com/github/TheCaduceus/Multi-Cloud-Transfer-Tool/blob/main/Rclone.ipynb",
+  "setupFile": "https://raw.githubusercontent.com/Khanomix/mcode/main/setup.sh",
+  "notebookLink": "https://colab.research.google.com/github/Khanomix/mcode/blob/main/myRclone.ipynb",
   "apis": {
     "encryptAPI": "https://cryptography.thecaduceus.eu.org",
     "anonFileShare": {
