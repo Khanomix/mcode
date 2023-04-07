@@ -1,0 +1,32 @@
+{
+  "version": "v5.1.0",
+  "setupFile": "https://cdn.thecaduceus.eu.org/MCT/sh/setup.sh",
+  "notebookLink": "https://colab.research.google.com/github/TheCaduceus/Multi-Cloud-Transfer-Tool/blob/main/Rclone.ipynb",
+  "apis": {
+    "encryptAPI": "https://cryptography.thecaduceus.eu.org",
+    "anonFileShare": {
+      "AnonFiles": "https://api.anonfiles.com/upload",
+      "FileChan": "https://api.filechan.org/upload",
+      "MyFile": "https://api.myfile.is/upload",
+      "BayFiles": "https://api.bayfiles.com/upload",
+      "LetsUpload": "https://api.letsupload.cc/upload",
+      "ShareOnline": "https://api.share-online.is/upload",
+      "MegaUpload": "https://api.megaupload.nz/upload",
+      "VShare": "https://api.vshare.is/upload",
+      "HotFiles": "https://api.hotfile.io/upload",
+      "RapidShare": "https://api.rapidshare.nu/upload",
+      "UpVid": "https://api.upvid.cc/upload",
+      "LoLAbits": "https://api.lolabits.se/upload",
+      "OpenLoad": "https://api.openload.cc/upload",
+      "ZippyShare": "https://api.zippysha.re/upload"
+    },
+    "GoFile": {
+      "configVersion": "2.0",
+      "loginURL": "https://gofile.io/login/{token}",
+      "serverURL": "{server_id}.gofile.io",
+      "uploadFile": "https://{server_id}.gofile.io/uploadFile",
+      "getAccountDetails": "https://api.gofile.io/getAccountDetails?token={token}",
+      "getServer": "https://api.gofile.io/getServer"
+    }
+  }
+}
