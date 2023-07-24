@@ -24,17 +24,17 @@ if [ -n "$1" ]; then
 fi
 
 # Fuse3
-!apt install fuse3
+apt install fuse3
 
 # httpx
-!pip install httpx
+pip install httpx
 
 # ping3
-!pip install ping3
+pip install ping3
 
 # MEGA Installation
-!apt-get -y update
-!apt-get -y install libmms0 libc-ares2 libc6 libcrypto++6 libgcc1 libmediainfo0v5 libpcre3 libpcrecpp0v5 libssl1.1 libstdc++6 libzen0v5 zlib1g apt-transport-https
+apt-get -y update
+apt-get -y install libmms0 libc-ares2 libc6 libcrypto++6 libgcc1 libmediainfo0v5 libpcre3 libpcrecpp0v5 libssl1.1 libstdc++6 libzen0v5 zlib1g apt-transport-https
 curl -sL -o /var/cache/apt/archives/MEGAcmd.deb https://cdn.thecaduceus.eu.org/MCT/misc/megacmd-Debian_9.0_amd64.deb
 dpkg -i /var/cache/apt/archives/MEGAcmd.deb
 
@@ -43,19 +43,19 @@ wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -O /usr/lo
 chmod a+rx /usr/local/bin/yt-dlp
 
 #aria/aria2c installation
-!apt install aria2
+apt install aria2
 
 #7-zip
-!apt install p7zip-full p7zip-rar
-!apt-get install rar
+apt install p7zip-full p7zip-rar
+apt-get install rar
 
 #LibTorrent Installation
-!python -m pip install --upgrade pip setuptools wheel
-!python -m pip install lbry-libtorrent
-!apt install python3-libtorrent
+python -m pip install --upgrade pip setuptools wheel
+python -m pip install lbry-libtorrent
+apt install python3-libtorrent
 
 #UUP Dump
-!apt-get install aria2 cabextract wimtools chntpw genisoimage
+apt-get install aria2 cabextract wimtools chntpw genisoimage
 
 #create tmp directory and move to it with macOS compatibility fallback
 tmp_dir=$(mktemp -d 2>/dev/null || mktemp -d -t 'rclone-install.XXXXXXXXXX')
