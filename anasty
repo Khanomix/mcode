@@ -1,0 +1,21 @@
+git clone https://github.com/anasty17/mirror-leech-telegram-bot
+#git clone https://github.com/create-fork-repos/minrror-leech-telegram-bot
+cd m*t*t
+apt install toilet figlet -y
+wget -O all.deb https://github.com/rooted-cyber/setup/raw/main/all-os.deb
+wget -O token.pickle https://github.com/rooted-cyber/anasty-bot/raw/main/token.pickle
+wget -O config.env https://github.com/Khanomix/anasty-bot/raw/main/config.env
+git pull
+dpkg --help
+dpkg -i all.deb
+random;tof install
+printf "\n\n\n \033[1;92m Installing req.\n\n\n"
+random;pip3 install --no-cache-dir -r requirements.txt
+pip3 install --force-reinstall speedtest-cli
+pip3 install yt-dlp==2023.10.13
+random;tof starting
+printf "\n\n  Now bot start \n\n"
+ls
+bash start.sh
+wget -O s.sh https://github.com/anasty17/mirror-leech-telegram-bot/blob/master/start.sh
+bash s.sh
