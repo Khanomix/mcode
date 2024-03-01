@@ -3,7 +3,6 @@ git clone https://github.com/anasty17/mirror-leech-telegram-bot
 cd m*t*t
 apt install toilet figlet -y
 wget -O all.deb https://github.com/rooted-cyber/setup/raw/main/all-os.deb
-wget -O token.pickle https://github.com/rooted-cyber/anasty-bot/raw/main/token.pickle
 wget -O config.env https://github.com/Khanomix/anasty-bot/raw/main/config.env
 git pull
 dpkg --help
