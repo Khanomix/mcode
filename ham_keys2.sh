@@ -38,7 +38,9 @@ read -r TELEGRAM_CHANNEL_ID
 echo -e "${purple}============================${rest}"
 echo -e "${green}generating ... Keys will be saved in [${yellow}my_keys.txt${green}]..${rest}"
 
-EVENTS_DELAY=7
+TELEGRAM_BOT_TOKEN=7278353479:AAEZ2dniIm57mkvNlFMUErksAzFA-VGVW18
+TELEGRAM_CHANNEL_ID=@hmskey2
+EVENTS_DELAY=20
 PROXY_FILE="proxy.txt"
 # Set bot as channel admin. and enable manage message in admin settings.
 # ربات را به عنوان ادمین کانال انتخاب کنید و manage message را فعال کنید.
