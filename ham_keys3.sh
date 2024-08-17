@@ -59,6 +59,10 @@ games[5, name]="Merge Away"
 games[5, appToken]="8d1cc2ad-e097-4b86-90ef-7a27e19fb833"
 games[5, promoId]="dc128d28-c45b-411c-98ff-ac7726fbaea4"
 
+games[6, name]="Twerk Race 3D"
+games[6, appToken]="61308365-9d16-4040-8bb0-2f4a4c69074c"
+games[6, promoId]="61308365-9d16-4040-8bb0-2f4a4c69074c"
+
 # Proxys
 load_proxies() {
 	if [[ -f "$1" ]]; then
@@ -92,7 +96,6 @@ login() {
 	)
 
 	if [[ $? -ne 0 ]]; then
-		echo "Error during login"
 		return
 	fi
 
@@ -170,11 +173,10 @@ generate_key_process() {
 	client_token=$(login "$client_id" "$app_token" "$proxy")
 
 	if [[ -z "$client_token" ]]; then
-		echo "Error during login."
 		return
 	fi
 
-	for i in {1..12}; do
+	for i in {1..20}; do
 		sleep $((EVENTS_DELAY * (RANDOM % 4 + 1) / 3))
 		has_code=$(emulate_progress "$client_token" "$promo_id" "$proxy")
 
@@ -192,7 +194,7 @@ main() {
 	load_proxies "$PROXY_FILE"
 
 	while true; do
-		for game_choice in {1..5}; do
+		for game_choice in {1..6}; do
 			if [[ ${#proxies[@]} -gt 0 ]]; then
 				proxy=${proxies[RANDOM % ${#proxies[@]}]}
 			else
